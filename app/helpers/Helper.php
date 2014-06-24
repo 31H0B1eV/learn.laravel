@@ -45,7 +45,6 @@ class Helper {
         return $this->setContent($output);
     }
 
-
     public static function getHelperInstance($url)
     {
         if (self::$instance === NULL)

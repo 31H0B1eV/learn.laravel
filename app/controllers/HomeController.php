@@ -1,11 +1,22 @@
 <?php
 
 
+/**
+ * Class HomeController
+ */
 class HomeController extends BaseController {
 
-	public function index()
+    /**
+     *
+     */
+    const URL = 'http://www.unian.net/';
+
+    /**
+     * @return View
+     */
+    public function index()
 	{
-        $page = Helper::getHelperInstance("http://www.unian.net/");
+        $page = Helper::getHelperInstance(self::URL);
 
         var_dump($page->getContent());
 
