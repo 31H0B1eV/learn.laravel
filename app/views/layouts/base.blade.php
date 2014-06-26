@@ -48,18 +48,39 @@
         @yield('content')
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-        <scrip src="/assets/jquery.jqpagination.min.js"></scrip>
-            <script>
+        <script>
 
-                $('.pagination a').on('click', function (event) {
-                    event.preventDefault();
-                    if ( $(this).attr('href') != '#' ) {
-                        $("html, body").animate({ scrollTop: 0 }, "slow");
-                        $('#ajaxContent').load($(this).attr('href'));
+            $(window).on('hashchange', function() {
+                if (window.location.hash) {
+                    var page = window.location.hash.replace('#', '');
+                    if (page == Number.NaN || page <= 0) {
+                        return false;
+                    } else {
+                        getPosts(page);
                     }
-                });
+                }
+            });
 
-            </script>
+            $(document).ready(function() {
+                $(document).on('click', '.pagination a', function (e) {
+                    getPosts($(this).attr('href').split('page=')[1]);
+                    e.preventDefault();
+                });
+            });
+
+            function getPosts(page) {
+                $.ajax({
+                    url : '?page=' + page,
+                    dataType: 'json'
+                }).done(function (data) {
+                    $('.lessons').html(data);
+                    location.hash = page;
+                }).fail(function () {
+                    alert('Lessons could not be loaded.');
+                });
+            }
+
+        </script>
     </body>
 </body>
 </html>
