@@ -45,28 +45,39 @@
                 <!-- /.navbar-collapse -->
             </div>
         </nav>
-        @yield('content')
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                	&nbsp
+                </div>
+                <div class="lessons col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    @yield('content')
+                </div>
+            </div>
+        </div>
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                $(document).on('click', '.pagination a', function (e) {
-                    getLessons($(this).attr('href').split('page=')[1]);
-                    e.preventDefault();
-                });
-            });
-            function getLessons(page) {
-                $.ajax({
-                    url : '?page=' + page,
-                    dataType: 'json'
-                }).done(function (data) {
-                    $('.lessons').html(data);
-                    location.hash = page;
-                }).fail(function () {
-                    alert('Lessons could not be loaded.');
-                });
-            }
-        </script>
+<!--        <script>-->
+<!--            $(document).ready(function() {-->
+<!--                $(document).on('click', '.pagination a', function (e) {-->
+<!--                    getLessons($(this).attr('href').split('page=')[1]);-->
+<!--                    e.preventDefault();-->
+<!--                });-->
+<!--            });-->
+<!--            function getLessons(page) {-->
+<!--                $.ajax({-->
+<!--                    url : '?page=' + page,-->
+<!--                    dataType: 'json'-->
+<!--                }).done(function (data) {-->
+<!--                    $('.lessons').html(data);-->
+<!--                    location.hash = page;-->
+<!--                }).fail(function () {-->
+<!--                    alert('Lessons could not be loaded.');-->
+<!--                });-->
+<!--            }-->
+<!--        </script>-->
     </body>
 </body>
 </html>
