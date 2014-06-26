@@ -6,8 +6,8 @@
 	"require": {
 		"laravel/framework": "4.2.*",
         "barryvdh/laravel-ide-helper": "dev-master",
-		"barryvdh/laravel-debugbar": "1.x"
-	},
+        "codesleeve/asset-pipeline": "dev-master"
+    },
 	"autoload": {
 		"classmap": [
 			"app/commands",
@@ -37,5 +37,10 @@
 	"config": {
 		"preferred-install": "dist"
 	},
-	"minimum-stability": "stable"
+	"minimum-stability": "stable",
+	"require-dev": {
+		"fzaninotto/faker": "dev-master",
+		"barryvdh/laravel-debugbar": "1.x",
+		"way/generators": "2.*"
+	}
 }
