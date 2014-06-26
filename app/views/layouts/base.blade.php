@@ -37,9 +37,9 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="#popular">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#contacts">Contacts</a></li>
+                        <!-- <li><a href="#popular">About</a></li> -->
+                        <li><a href="/lessons">Lessons</a></li>
+                        <!-- <li><a href="#contacts">Contacts</a></li> -->
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
