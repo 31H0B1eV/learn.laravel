@@ -7,20 +7,14 @@
 class HomeController extends BaseController {
 
     /**
-     *
-     */
-    const URL = 'http://www.unian.net/';
-
-    /**
      * @return View
      */
     public function index()
 	{
-        $page = Helper::getHelperInstance(self::URL);
+    
+        $env = app('env');
 
-        var_dump($page->getContent());
-
-		return View::make('index');
+		return View::make('index', compact('env'));
 	}
 
 }
