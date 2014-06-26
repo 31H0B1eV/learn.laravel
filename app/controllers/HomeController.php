@@ -1,15 +1,20 @@
 <?php
 
 
+/**
+ * Class HomeController
+ */
 class HomeController extends BaseController {
 
-	public function index()
+    /**
+     * @return View
+     */
+    public function index()
 	{
-        $page = Helper::getHelperInstance("http://www.unian.net/");
+    
+        $env = app('env');
 
-        var_dump($page->getContent());
-
-		return View::make('index');
+		return View::make('index', compact('env'));
 	}
 
 }

@@ -5,7 +5,8 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.2.*",
-        "barryvdh/laravel-ide-helper": "dev-master"
+        "barryvdh/laravel-ide-helper": "dev-master",
+		"barryvdh/laravel-debugbar": "1.x"
 	},
 	"autoload": {
 		"classmap": [
@@ -17,6 +18,9 @@
 			"app/tests/TestCase.php"
 		]
 	},
+    "post-update-cmd": [
+        "php artisan debugbar:publish"
+    ],
 	"scripts": {
 		"post-install-cmd": [
 			"php artisan clear-compiled",
