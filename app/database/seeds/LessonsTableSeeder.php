@@ -9,7 +9,7 @@ class LessonsTableSeeder extends Seeder {
     {
         Lesson::truncate();
 
-        $faker = Faker::create();
+        $faker = Faker::create('ru_RU');
 
         foreach (range(1, 10000) as $index)
         {

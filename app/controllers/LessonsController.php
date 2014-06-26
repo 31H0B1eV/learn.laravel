@@ -7,10 +7,10 @@ class LessonsController extends BaseController {
     {
         $lessons = Lesson::paginate(16);
 
-        if (Request::ajax()) {
-            return Response::json(View::make('lessons', compact('lessons'))->render());
-            exit;
-        }
+//        if (Request::ajax()) {
+//            return Response::json(View::make('lessons', compact('lessons'))->render());
+//            exit;
+//        }
 
         return View::make('lessons', compact('lessons'));
     }
