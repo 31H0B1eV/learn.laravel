@@ -5,6 +5,8 @@ class LessonsController extends BaseController {
 
     public function show()
     {
-        return View::make('lessons');
+        $lessons = Lesson::paginate(6);
+
+        return View::make('lessons', compact('lessons'));
     }
 }
