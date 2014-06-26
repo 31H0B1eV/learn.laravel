@@ -11,7 +11,7 @@ class LessonsTableSeeder extends Seeder {
 
         $faker = Faker::create();
 
-        foreach (range(1, 50) as $index)
+        foreach (range(1, 10000) as $index)
         {
             Lesson::create([
                 'title' => $faker->sentence(5),

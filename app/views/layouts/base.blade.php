@@ -9,11 +9,17 @@
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
         <style type="text/css">
         body {
-        margin-top: 50px; /* 50px is the height of the navbar - change this if the navbar height changes */
-        background-color: #cccccc;
+            margin-top: 50px; /* 50px is the height of the navbar - change this if the navbar height changes */
+            background-color: rgba(0,0,0,.2);
+            background-clip: padding-box;
+            border: solid transparent;
+            border-width: 1px 1px 1px 6px;
+            min-height: 28px;
+            padding: 10px 0 0;
+            box-shadow: inset 1px 1px 0 rgba(0,0,0,.1),inset 0 -1px 0 rgba(0,0,0,.07);
         }
         footer {
-        margin: 50px 0;
+            margin: 50px 0;
         }
         </style>
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -61,6 +67,25 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <script>
+            /*pagination via ajax*/
+           /* $(document).ready(function() {
+               $(document).on('click', '.pagination a', function (e) {
+                    getLessons($(this).attr('href').split('page=')[1]);
+                    e.preventDefault();
+                });
+            });
+            function getLessons(page) {
+                $.ajax({
+                    url : '?page=' + page,
+                    dataType: 'json'
+                }).done(function (data) {
+                    $('.lessons').html(data);
+                    location.hash = page;
+                }).fail(function () {
+                    alert('Lessons could not be loaded.');
+                });
+            }*/
+            /*end pagination via ajax*/
             function equalHeight(group) {
                 var tallest = 0;
                 group.each(function() {
@@ -71,27 +96,9 @@
                 });
                 group.each(function() { $(this).height(tallest); });
             }
-
             $(document).ready(function() {
                 equalHeight($(".thumbnail"));
             });
-/*<!--            $(document).ready(function() {-->
-<!--                $(document).on('click', '.pagination a', function (e) {-->
-<!--                    getLessons($(this).attr('href').split('page=')[1]);-->
-<!--                    e.preventDefault();-->
-<!--                });-->
-<!--            });-->
-<!--            function getLessons(page) {-->
-<!--                $.ajax({-->
-<!--                    url : '?page=' + page,-->
-<!--                    dataType: 'json'-->
-<!--                }).done(function (data) {-->
-<!--                    $('.lessons').html(data);-->
-<!--                    location.hash = page;-->
-<!--                }).fail(function () {-->
-<!--                    alert('Lessons could not be loaded.');-->
-<!--                });-->
-<!--            }-->*/
         </script>
     </body>
 </body>
