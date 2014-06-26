@@ -48,6 +48,18 @@
         @yield('content')
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <scrip src="/assets/jquery.jqpagination.min.js"></scrip>
+            <script>
+
+                $('.pagination a').on('click', function (event) {
+                    event.preventDefault();
+                    if ( $(this).attr('href') != '#' ) {
+                        $("html, body").animate({ scrollTop: 0 }, "slow");
+                        $('#ajaxContent').load($(this).attr('href'));
+                    }
+                });
+
+            </script>
     </body>
 </body>
 </html>
