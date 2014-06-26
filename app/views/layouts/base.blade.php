@@ -10,6 +10,7 @@
         <style type="text/css">
         body {
         margin-top: 50px; /* 50px is the height of the navbar - change this if the navbar height changes */
+        background-color: #cccccc;
         }
         footer {
         margin: 50px 0;
@@ -48,10 +49,10 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                	&nbsp
-                </div>
-                <div class="lessons col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            	&nbsp
+            </div>
+            <div class="row">
+                <div class="lessons col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     @yield('content')
                 </div>
             </div>
@@ -59,8 +60,22 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<!--        <script>-->
-<!--            $(document).ready(function() {-->
+        <script>
+            function equalHeight(group) {
+                var tallest = 0;
+                group.each(function() {
+                    var thisHeight = $(this).height();
+                    if(thisHeight > tallest) {
+                        tallest = thisHeight;
+                    }
+                });
+                group.each(function() { $(this).height(tallest); });
+            }
+
+            $(document).ready(function() {
+                equalHeight($(".thumbnail"));
+            });
+/*<!--            $(document).ready(function() {-->
 <!--                $(document).on('click', '.pagination a', function (e) {-->
 <!--                    getLessons($(this).attr('href').split('page=')[1]);-->
 <!--                    e.preventDefault();-->
@@ -76,8 +91,8 @@
 <!--                }).fail(function () {-->
 <!--                    alert('Lessons could not be loaded.');-->
 <!--                });-->
-<!--            }-->
-<!--        </script>-->
+<!--            }-->*/
+        </script>
     </body>
 </body>
 </html>
