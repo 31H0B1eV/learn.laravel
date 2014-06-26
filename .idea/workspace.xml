@@ -24,11 +24,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LessonsController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/LessonsController.php">
+      <file leaf-file-name="lessons.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/lessons.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="17" selection-start="268" selection-end="268" vertical-scroll-proportion="0.36402878" vertical-offset="0" max-vertical-offset="695">
-              <folding />
+            <state line="8" column="27" selection-start="144" selection-end="144" vertical-scroll-proportion="0.17266187" vertical-offset="64" max-vertical-offset="759">
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,10 +56,12 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/config/app.php" />
         <option value="$PROJECT_DIR$/app/models/Lesson.php" />
-        <option value="$PROJECT_DIR$/app/views/layouts/base.blade.php" />
         <option value="$PROJECT_DIR$/app/config/view.php" />
-        <option value="$PROJECT_DIR$/app/views/lessons.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/lesson_detail.blade.html" />
         <option value="$PROJECT_DIR$/app/controllers/LessonsController.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/base.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/lesson_detail.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/lessons.blade.php" />
       </list>
     </option>
   </component>
@@ -233,28 +237,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -371,16 +353,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="322" max-vertical-offset="552" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="414" />
@@ -607,6 +579,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="41" selection-start="900" selection-end="900" vertical-scroll-proportion="0.7021583" vertical-offset="156" max-vertical-offset="851">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Lesson.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="44" selection-start="85" selection-end="85" vertical-scroll-proportion="0.16546762" vertical-offset="0" max-vertical-offset="695">
@@ -614,31 +600,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/view.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/LessonsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="2" selection-start="906" selection-end="906" vertical-scroll-proportion="0.7683453" vertical-offset="156" max-vertical-offset="851">
+        <state line="10" column="52" selection-start="215" selection-end="216" vertical-scroll-proportion="0.33093524" vertical-offset="0" max-vertical-offset="695">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/base.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="34" selection-start="3531" selection-end="3531" vertical-scroll-proportion="0.7639296" vertical-offset="1273" max-vertical-offset="2093">
+        <state line="67" column="13" selection-start="3202" selection-end="3202" vertical-scroll-proportion="1.3709677" vertical-offset="606" max-vertical-offset="1771">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/lessons.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="8" selection-start="569" selection-end="569" vertical-scroll-proportion="0.7683453" vertical-offset="18" max-vertical-offset="759">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/LessonsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="268" selection-end="268" vertical-scroll-proportion="0.36402878" vertical-offset="0" max-vertical-offset="695">
-          <folding />
+        <state line="8" column="27" selection-start="144" selection-end="144" vertical-scroll-proportion="0.17266187" vertical-offset="64" max-vertical-offset="759">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

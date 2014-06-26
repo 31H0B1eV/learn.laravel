@@ -49,26 +49,13 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <script>
-
-            $(window).on('hashchange', function() {
-                if (window.location.hash) {
-                    var page = window.location.hash.replace('#', '');
-                    if (page == Number.NaN || page <= 0) {
-                        return false;
-                    } else {
-                        getPosts(page);
-                    }
-                }
-            });
-
             $(document).ready(function() {
                 $(document).on('click', '.pagination a', function (e) {
-                    getPosts($(this).attr('href').split('page=')[1]);
+                    getLessons($(this).attr('href').split('page=')[1]);
                     e.preventDefault();
                 });
             });
-
-            function getPosts(page) {
+            function getLessons(page) {
                 $.ajax({
                     url : '?page=' + page,
                     dataType: 'json'
@@ -79,7 +66,6 @@
                     alert('Lessons could not be loaded.');
                 });
             }
-
         </script>
     </body>
 </body>
