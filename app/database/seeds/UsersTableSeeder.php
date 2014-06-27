@@ -15,11 +15,17 @@ class UsersTableSeeder extends Seeder {
 		{
 			User::create([
                 'user_name' => $faker->name($gender = null|'male'|'female'),
-                'user_email' => $faker->email,
+                'email' => $faker->email,
                 'admin_group' => rand(0, 1),
                 'password' => Hash::make($faker->sentence(1))
 			]);
 		}
+        User::create([
+            'user_name'   => 'ArtemZinoviev',
+            'email'  => 'arzinoviev@gmail.com',
+            'admin_group' => 1,
+            'password'    => Hash::make('secret')
+        ]);
 	}
 
 }
