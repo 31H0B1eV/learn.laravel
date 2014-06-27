@@ -10,7 +10,7 @@
         <style type="text/css">
         body {
             margin-top: 50px; /* 50px is the height of the navbar - change this if the navbar height changes */
-            background-color: rgba(0,0,0,.2);
+            background-color: #f5f5f5;
             background-clip: padding-box;
             border: solid transparent;
             border-width: 1px 1px 1px 6px;
