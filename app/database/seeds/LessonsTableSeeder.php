@@ -7,7 +7,7 @@ class LessonsTableSeeder extends Seeder {
 
     public function run()
     {
-        Lesson::truncate();
+//        Lesson::truncate();
 
         $faker = Faker::create('ru_RU');
 
