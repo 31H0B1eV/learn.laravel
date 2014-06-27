@@ -14,3 +14,9 @@
 Route::get('/', 'HomeController@index');
 
 Route::get('/lessons', 'LessonsController@show');
+
+Route::get('/add', function(){
+    return View::make('create_lesson');
+});
+
+Route::post('/add', 'LessonsController@create');

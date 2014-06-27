@@ -46,7 +46,9 @@
                     <ul class="nav navbar-nav">
                         <!-- <li><a href="#popular">About</a></li> -->
                         <li><a href="/lessons">Lessons</a></li>
-                        <!-- <li><a href="#contacts">Contacts</a></li> -->
+                        @if(isset($lessons))
+                        <li><a href="/add">Create Lesson</a></li>
+                        @endif
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
