@@ -18,7 +18,6 @@
                 <div class="caption">
                     <a href="lessons/{{ $lesson->id }}"><h3>{{ $lesson->title }}</h3></a>
                     <p>{{ $lesson->body }}</p>
-                    <h3 class="text-right">User id: <small>{{ $lesson->user_id }}</small></h3>
 <!--                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>-->
                 </div>
             </div>
