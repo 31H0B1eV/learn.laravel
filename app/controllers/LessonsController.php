@@ -8,17 +8,19 @@ class LessonsController extends BaseController {
     {
         $this->beforeFilter('auth.basic', ['on' => 'post']);
     }
-    
-    public function show()
+
+    public function index()
     {
         $lessons = Lesson::paginate(16);
 
-//        if (Request::ajax()) {
-//            return Response::json(View::make('lessons', compact('lessons'))->render());
-//            exit;
-//        }
-
         return View::make('lessons', compact('lessons'));
+    }
+    
+    public function show($lessonId)
+    {
+        $lesson = Lesson::findOrFail($lessonId);
+
+        return View::make('lesson_detail', compact('lesson'));
     }
 
     public function create()

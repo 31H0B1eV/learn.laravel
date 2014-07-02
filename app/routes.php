@@ -13,7 +13,7 @@
 
 Route::get('/', 'HomeController@index');
 
-Route::get('/lessons', 'LessonsController@show');
+Route::resource('/lessons', 'LessonsController');
 
 Route::get('/add', function(){
     return View::make('create_lesson');

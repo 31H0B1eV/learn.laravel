@@ -24,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="composer.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+      <file leaf-file-name="lesson_detail.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/lesson_detail.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="23" selection-start="969" selection-end="983" vertical-scroll-proportion="1.4230216" vertical-offset="0" max-vertical-offset="1196">
+            <state line="14" column="70" selection-start="450" selection-end="450" vertical-scroll-proportion="0.289829" vertical-offset="0" max-vertical-offset="1111">
               <folding />
             </state>
           </provider>
@@ -53,12 +53,10 @@
         <option value="$PROJECT_DIR$/app/config/app.php" />
         <option value="$PROJECT_DIR$/app/models/Lesson.php" />
         <option value="$PROJECT_DIR$/app/views/lesson_detail.blade.html" />
-        <option value="$PROJECT_DIR$/app/views/lesson_detail.blade.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/views/slider.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/views/simple.php" />
         <option value="$PROJECT_DIR$/app/config/view.php" />
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/views/slider-3.php" />
-        <option value="$PROJECT_DIR$/app/views/lessons.blade.php" />
         <option value="$PROJECT_DIR$/app/views/index.blade.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/models/LessonUser.php" />
@@ -67,20 +65,23 @@
         <option value="$PROJECT_DIR$/app/views/layouts/base.blade.php" />
         <option value="$PROJECT_DIR$/app/views/create_lesson.blade.php" />
         <option value="$PROJECT_DIR$/app/views/partials/_form.blade.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_06_26_150432_create_users_table.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/models/User.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/views/lessons.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/LessonsController.php" />
+        <option value="$PROJECT_DIR$/app/views/lesson_detail.blade.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="381" />
-    <option name="width" value="985" />
-    <option name="height" value="743" />
+    <option name="x" value="778" />
+    <option name="y" value="3" />
+    <option name="width" value="1142" />
+    <option name="height" value="1172" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -108,6 +109,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,50 +174,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -258,7 +216,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,6 +235,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views" />
       <recent name="$PROJECT_DIR$/app/controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -330,7 +288,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="381" y="0" width="985" height="743" extended-state="0" />
+    <frame x="778" y="3" width="1142" height="1172" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -339,7 +297,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294412" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3248731" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32486865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -347,11 +305,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -373,11 +331,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -515,9 +468,7 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_9.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="681" column="9" selection-start="23654" selection-end="23654" vertical-scroll-proportion="0.0" vertical-offset="15663" max-vertical-offset="24472">
-          <folding />
-        </state>
+        <state line="681" column="9" selection-start="23654" selection-end="23654" vertical-scroll-proportion="0.0" vertical-offset="15663" max-vertical-offset="24472" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/views/slider-3.php">
@@ -528,11 +479,6 @@
     <entry file="file://$PROJECT_DIR$/vendor/codesleeve/sprockets/tests/fixtures/provider/assets/stylesheets/twitter/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="63243" selection-start="63463" selection-end="63463" vertical-scroll-proportion="0.26979473" vertical-offset="0" max-vertical-offset="682" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/lessons.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="238" selection-end="238" vertical-scroll-proportion="0.22434017" vertical-offset="100" max-vertical-offset="851" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/favicon.ico">
@@ -549,119 +495,105 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="8" selection-start="2086" selection-end="2101" vertical-scroll-proportion="2.1841726" vertical-offset="0" max-vertical-offset="1771">
-          <folding />
-        </state>
+        <state line="66" column="8" selection-start="2086" selection-end="2101" vertical-scroll-proportion="2.1841726" vertical-offset="0" max-vertical-offset="1771" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/LessonUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="51" selection-start="133" selection-end="133" vertical-scroll-proportion="0.23165467" vertical-offset="0" max-vertical-offset="695">
-          <folding />
-        </state>
+        <state line="7" column="51" selection-start="133" selection-end="133" vertical-scroll-proportion="0.23165467" vertical-offset="0" max-vertical-offset="695" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/LessonUserTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="10" selection-start="162" selection-end="185" vertical-scroll-proportion="0.29784173" vertical-offset="0" max-vertical-offset="695">
-          <folding />
-        </state>
+        <state line="9" column="10" selection-start="162" selection-end="185" vertical-scroll-proportion="0.29784173" vertical-offset="0" max-vertical-offset="695" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="6" selection-start="0" selection-end="461" vertical-scroll-proportion="0.5058651" vertical-offset="0" max-vertical-offset="682">
-          <folding />
-        </state>
+        <state line="15" column="6" selection-start="0" selection-end="461" vertical-scroll-proportion="0.5058651" vertical-offset="0" max-vertical-offset="682" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/base.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="65" selection-start="2533" selection-end="2533" vertical-scroll-proportion="0.53958946" vertical-offset="759" max-vertical-offset="2576">
-          <folding />
-        </state>
+        <state line="49" column="65" selection-start="2533" selection-end="2533" vertical-scroll-proportion="0.53958946" vertical-offset="759" max-vertical-offset="2576" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/create_lesson.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="127" selection-end="127" vertical-scroll-proportion="0.26474822" vertical-offset="0" max-vertical-offset="695">
-          <folding />
-        </state>
+        <state line="8" column="26" selection-start="127" selection-end="127" vertical-scroll-proportion="0.26474822" vertical-offset="0" max-vertical-offset="695" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/partials/_form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="604" selection-end="604" vertical-scroll-proportion="0.72805756" vertical-offset="0" max-vertical-offset="695">
+        <state line="22" column="19" selection-start="604" selection-end="604" vertical-scroll-proportion="0.72805756" vertical-offset="0" max-vertical-offset="695" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_06_26_152849_create_lesson_user_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="966" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_06_26_095143_create_lessons_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_06_26_150432_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="32" selection-start="361" selection-end="361" vertical-scroll-proportion="0.36402878" vertical-offset="138" max-vertical-offset="989" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/LessonsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="10" selection-start="122" selection-end="141" vertical-scroll-proportion="0.29784173" vertical-offset="0" max-vertical-offset="695" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="337" selection-end="375" vertical-scroll-proportion="0.5733138" vertical-offset="0" max-vertical-offset="828" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="198" selection-end="198" vertical-scroll-proportion="0.4964029" vertical-offset="0" max-vertical-offset="695" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="1498" selection-end="1498" vertical-scroll-proportion="2.2834532" vertical-offset="0" max-vertical-offset="1725" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="23" selection-start="969" selection-end="983" vertical-scroll-proportion="0.8158363" vertical-offset="72" max-vertical-offset="1196">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="48" selection-start="611" selection-end="611" vertical-scroll-proportion="0.3971223" vertical-offset="0" max-vertical-offset="695">
+        <state line="17" column="30" selection-start="517" selection-end="517" vertical-scroll-proportion="0.16370107" vertical-offset="0" max-vertical-offset="1124">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_06_26_152849_create_lesson_user_table.php">
+    <entry file="file://$PROJECT_DIR$/app/views/lessons.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="966">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_06_26_095143_create_lessons_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_06_26_150432_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="32" selection-start="361" selection-end="361" vertical-scroll-proportion="0.36402878" vertical-offset="138" max-vertical-offset="989">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/LessonsTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="10" selection-start="122" selection-end="141" vertical-scroll-proportion="0.29784173" vertical-offset="0" max-vertical-offset="695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="337" selection-end="375" vertical-scroll-proportion="0.5733138" vertical-offset="0" max-vertical-offset="828">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="198" selection-end="198" vertical-scroll-proportion="0.4964029" vertical-offset="0" max-vertical-offset="695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="1498" selection-end="1498" vertical-scroll-proportion="2.2834532" vertical-offset="0" max-vertical-offset="1725">
+        <state line="3" column="23" selection-start="67" selection-end="67" vertical-scroll-proportion="0.06210621" vertical-offset="0" max-vertical-offset="1111">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/LessonsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="59" selection-start="650" selection-end="650" vertical-scroll-proportion="0.56978416" vertical-offset="202" max-vertical-offset="920">
+        <state line="19" column="5" selection-start="353" selection-end="353" vertical-scroll-proportion="0.39333934" vertical-offset="0" max-vertical-offset="1111">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/app/views/lesson_detail.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="23" selection-start="969" selection-end="983" vertical-scroll-proportion="1.4230216" vertical-offset="0" max-vertical-offset="1196">
+        <state line="14" column="70" selection-start="450" selection-end="450" vertical-scroll-proportion="0.289829" vertical-offset="0" max-vertical-offset="1111">
           <folding />
         </state>
       </provider>

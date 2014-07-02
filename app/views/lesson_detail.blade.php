@@ -1,17 +1,13 @@
 @extends('layouts.base')
 
 @section('title')
- Lear Laravel | Lessons
+ Lear Laravel | Lesson detail
 @stop
 
 @section('content')
-    @if (isset($lessons))
+    @if (isset($lesson))
 <div class="container">
     <div class="row">
-        <div class="text-center">{{ $lessons->links() }}</div>
-    </div>
-    <div class="row">
-        @foreach ($lessons as $lesson)
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
             <div class="thumbnail">
 <!--                <img src="http://placehold.it/300x300/" alt="...">-->
@@ -22,10 +18,6 @@
                 </div>
             </div>
         </div>
-        @endforeach
-    </div>
-    <div class="row">
-        <div class="text-center">{{ $lessons->links() }}</div>
     </div>
 </div>
     @endif
