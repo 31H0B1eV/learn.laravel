@@ -19,9 +19,13 @@
                     <a href="lessons/{{ $lesson->id }}"><h3>{{ $lesson->title }}</h3></a>
                     <p>{{ $lesson->body }}</p>
                 </div>
-                <p class="text-center">
-                    <a href="#"><span class="glyphicon glyphicon-heart"></span></a>
-                </p>
+                <div class="text-center">
+                    {{ Form::open(['route' => 'favorites.store']) }}
+                        <button type="submit" class="btn-naked">
+                            <span class="glyphicon glyphicon-heart not-favorited"></span>
+                        </button>
+                    {{ Form::close() }}
+                </div>
             </article>
         </div>
         @endforeach

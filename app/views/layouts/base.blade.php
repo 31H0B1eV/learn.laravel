@@ -7,6 +7,7 @@
         <title>@yield('title')</title>
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css"/>
         <style type="text/css">
         body {
             margin-top: 50px; /* 50px is the height of the navbar - change this if the navbar height changes */

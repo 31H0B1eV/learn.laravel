@@ -20,3 +20,8 @@ Route::get('/add', function(){
 });
 
 Route::post('/add', 'LessonsController@create');
+
+Route::post('favorites', ['as' => 'favorites.store', function()
+{
+
+}]);
