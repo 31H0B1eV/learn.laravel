@@ -125,7 +125,6 @@ return array(
         'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
         'Barryvdh\Debugbar\ServiceProvider',
         'Way\Generators\GeneratorsServiceProvider',
-        'Codesleeve\AssetPipeline\AssetPipelineServiceProvider',
 	),
 
 	/*
