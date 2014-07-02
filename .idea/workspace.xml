@@ -24,13 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lesson_detail.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/lesson_detail.blade.php">
+      <file leaf-file-name="lessons.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/lessons.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="5" selection-start="854" selection-end="854" vertical-scroll-proportion="0.5175518" vertical-offset="0" max-vertical-offset="1111">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="23" column="20" selection-start="818" selection-end="818" vertical-scroll-proportion="0.47064057" vertical-offset="0" max-vertical-offset="1124">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,7 +69,6 @@
         <option value="$PROJECT_DIR$/app/database/migrations/2014_06_26_095143_create_lessons_table.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/LessonsTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/models/Lesson.php" />
-        <option value="$PROJECT_DIR$/app/views/lessons.blade.php" />
         <option value="$PROJECT_DIR$/app/models/LessonUser.php" />
         <option value="$PROJECT_DIR$/app/models/Favorites.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_07_02_130902_create_lessons_table.php" />
@@ -81,6 +78,7 @@
         <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/models/User.php" />
         <option value="$PROJECT_DIR$/app/views/lesson_detail.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/lessons.blade.php" />
       </list>
     </option>
   </component>
@@ -615,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/lessons.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="46" selection-start="646" selection-end="646" vertical-scroll-proportion="0.39333934" vertical-offset="0" max-vertical-offset="1111">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/LessonsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="1" selection-start="838" selection-end="838" vertical-scroll-proportion="0.74527454" vertical-offset="0" max-vertical-offset="1111">
@@ -702,9 +693,14 @@
     <entry file="file://$PROJECT_DIR$/app/views/lesson_detail.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="5" selection-start="854" selection-end="854" vertical-scroll-proportion="0.5175518" vertical-offset="0" max-vertical-offset="1111">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/lessons.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="20" selection-start="818" selection-end="818" vertical-scroll-proportion="0.47064057" vertical-offset="0" max-vertical-offset="1124">
+          <folding />
         </state>
       </provider>
     </entry>
