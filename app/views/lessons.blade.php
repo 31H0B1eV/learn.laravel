@@ -21,6 +21,7 @@
                 </div>
                 <div class="text-center">
                     {{ Form::open(['route' => 'favorites.store']) }}
+                        {{ Form::hidden('lesson-id', $lesson->id) }}
                         <button type="submit" class="btn-naked">
                             <span class="glyphicon glyphicon-heart not-favorited"></span>
                         </button>
