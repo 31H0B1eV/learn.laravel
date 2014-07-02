@@ -24,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
+      <file leaf-file-name="User.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="42" selection-start="359" selection-end="359" vertical-scroll-proportion="0.4475089" vertical-offset="3" max-vertical-offset="1127">
+            <state line="70" column="4" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.89768684" vertical-offset="578" max-vertical-offset="1748">
               <folding />
             </state>
           </provider>
@@ -64,7 +64,6 @@
         <option value="$PROJECT_DIR$/app/views/partials/_form.blade.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_06_26_150432_create_users_table.php" />
-        <option value="$PROJECT_DIR$/app/models/User.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/controllers/LessonsController.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_06_26_095143_create_lessons_table.php" />
@@ -77,7 +76,9 @@
         <option value="$PROJECT_DIR$/app/database/migrations/2014_07_02_130902_create_lessons_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_07_02_130940_create_users_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_07_02_131017_create_favorites_table.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/FavoritesTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/app/models/User.php" />
       </list>
     </option>
   </component>
@@ -557,13 +558,6 @@
         <state line="22" column="19" selection-start="604" selection-end="604" vertical-scroll-proportion="0.72805756" vertical-offset="0" max-vertical-offset="695" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="1498" selection-end="1498" vertical-scroll-proportion="2.2834532" vertical-offset="0" max-vertical-offset="1725">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="23" selection-start="969" selection-end="983" vertical-scroll-proportion="0.8158363" vertical-offset="72" max-vertical-offset="1196">
@@ -630,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Favorites.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="95" selection-end="95" vertical-scroll-proportion="0.1227758" vertical-offset="0" max-vertical-offset="1124">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/local/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1219">
@@ -667,14 +654,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_02_131017_create_favorites_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="317" selection-end="317" vertical-scroll-proportion="0.3069395" vertical-offset="0" max-vertical-offset="1124">
+        <state line="20" column="11" selection-start="483" selection-end="483" vertical-scroll-proportion="0.38879004" vertical-offset="0" max-vertical-offset="1124">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/FavoritesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="66" selection-start="532" selection-end="532" vertical-scroll-proportion="0.3519352" vertical-offset="0" max-vertical-offset="1111">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="42" selection-start="359" selection-end="359" vertical-scroll-proportion="0.4475089" vertical-offset="3" max-vertical-offset="1127">
+        <state line="24" column="5" selection-start="407" selection-end="407" vertical-scroll-proportion="0.48843417" vertical-offset="3" max-vertical-offset="1150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="4" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.89768684" vertical-offset="578" max-vertical-offset="1748">
           <folding />
         </state>
       </provider>

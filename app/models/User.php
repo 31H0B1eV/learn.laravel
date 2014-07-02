@@ -67,4 +67,6 @@ class User extends \Eloquent implements UserInterface, RemindableInterface {
     {
         // TODO: Implement getRememberTokenName() method.
     }
+
+    
 }

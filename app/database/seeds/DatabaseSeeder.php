@@ -21,6 +21,7 @@ class DatabaseSeeder extends Seeder {
 
         $this->call('UsersTableSeeder');
         $this->call('LessonsTableSeeder');
+        $this->call('FavoritesTableSeeder');
 	}
 
     private function cleanDatabase()
