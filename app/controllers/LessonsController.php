@@ -20,7 +20,7 @@ class LessonsController extends BaseController {
     {
         $lesson = Lesson::findOrFail($lessonId);
 
-        return View::make('lesson_detail', compact('lesson'));
+        return View::make('lesson.detail', compact('lesson'));
     }
 
     public function create()

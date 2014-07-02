@@ -23,7 +23,7 @@ Route::post('/add', 'LessonsController@create');
 
 Route::post('favorites', ['as' => 'favorites.store', function()
 {
-    Auth::attempt(array('email' => 'arzinoviev@gmail.com', 'password' => 'secret'));
+    echo Auth::check();
 
     Auth::user()->favorites()->attach(Input::get('lesson-id'));
 
