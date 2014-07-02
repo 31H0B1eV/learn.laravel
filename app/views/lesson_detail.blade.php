@@ -12,7 +12,7 @@
             <div class="thumbnail">
 <!--                <img src="http://placehold.it/300x300/" alt="...">-->
                 <div class="caption">
-                    <a href="lessons/{{ $lesson->id }}"><h3>{{ $lesson->title }}</h3></a>
+                    <h3>{{ $lesson->title }}</h3>
                     <p>{{ $lesson->body }}</p>
                     <h3 class="text-right">User id: <small>{{ $lesson->user_id }}</small></h3>
 <!--                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>-->
