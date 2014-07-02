@@ -68,5 +68,8 @@ class User extends \Eloquent implements UserInterface, RemindableInterface {
         // TODO: Implement getRememberTokenName() method.
     }
 
-    
+    public function favorites()
+    {
+        return $this->belongsToMany('Lesson', 'favorites')->withTimestamps();  // by default that looks lesson_user table
+    }
 }
