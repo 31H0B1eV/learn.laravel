@@ -24,11 +24,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="User.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/User.php">
+      <file leaf-file-name="lesson_detail.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/lesson_detail.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="75" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.8460846" vertical-offset="693" max-vertical-offset="1817">
-              <folding />
+            <state line="25" column="5" selection-start="854" selection-end="854" vertical-scroll-proportion="0.5175518" vertical-offset="0" max-vertical-offset="1111">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,7 +72,6 @@
         <option value="$PROJECT_DIR$/app/database/seeds/LessonsTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/models/Lesson.php" />
         <option value="$PROJECT_DIR$/app/views/lessons.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/lesson_detail.blade.php" />
         <option value="$PROJECT_DIR$/app/models/LessonUser.php" />
         <option value="$PROJECT_DIR$/app/models/Favorites.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_07_02_130902_create_lessons_table.php" />
@@ -79,6 +80,7 @@
         <option value="$PROJECT_DIR$/app/database/seeds/FavoritesTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/models/User.php" />
+        <option value="$PROJECT_DIR$/app/views/lesson_detail.blade.php" />
       </list>
     </option>
   </component>
@@ -163,6 +165,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -275,7 +299,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistory" value="composer&#10;Less&#10;route&#10;s&#10;base&#10;User&#10;auth&#10;inde&#10;bas&#10;less&#10;ba&#10;le&#10;less`&#10;lesson&#10;view&#10;LessonController&#10;app&#10;tabs&#10;live templa&#10;file templates&#10;color scheme&#10;view menu&#10;BladeCompiler&#10;base.b&#10;settings&#10;import settings&#10;com&#10;compo" />
+    <property name="SearchEverywhereHistory" value="routes&#10;composer&#10;Less&#10;route&#10;s&#10;base&#10;User&#10;auth&#10;inde&#10;bas&#10;less&#10;ba&#10;le&#10;less`&#10;lesson&#10;view&#10;LessonController&#10;app&#10;tabs&#10;live templa&#10;file templates&#10;color scheme&#10;view menu&#10;BladeCompiler&#10;base.b&#10;settings&#10;import settings&#10;com&#10;compo" />
     <property name="last_opened_file_path" value="/var/www/html/info.php" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -354,7 +378,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924694" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294412" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34435964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.302799" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -543,11 +567,6 @@
         <state line="15" column="6" selection-start="0" selection-end="461" vertical-scroll-proportion="0.5058651" vertical-offset="0" max-vertical-offset="682" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/base.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="65" selection-start="2533" selection-end="2533" vertical-scroll-proportion="0.53958946" vertical-offset="759" max-vertical-offset="2576" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/create_lesson.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="26" selection-start="127" selection-end="127" vertical-scroll-proportion="0.26474822" vertical-offset="0" max-vertical-offset="695" />
@@ -561,13 +580,6 @@
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="23" selection-start="969" selection-end="983" vertical-scroll-proportion="0.8158363" vertical-offset="72" max-vertical-offset="1196">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="517" selection-end="517" vertical-scroll-proportion="0.16370107" vertical-offset="0" max-vertical-offset="1124">
           <folding />
         </state>
       </provider>
@@ -606,13 +618,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/lessons.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="46" selection-start="646" selection-end="646" vertical-scroll-proportion="0.39333934" vertical-offset="0" max-vertical-offset="1111">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/lesson_detail.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="10" selection-start="813" selection-end="813" vertical-scroll-proportion="0.47614762" vertical-offset="0" max-vertical-offset="1111">
           <folding />
         </state>
       </provider>
@@ -675,8 +680,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="75" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.8460846" vertical-offset="693" max-vertical-offset="1817">
+        <state line="53" column="19" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.4475089" vertical-offset="693" max-vertical-offset="1817">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="48" selection-start="611" selection-end="611" vertical-scroll-proportion="0.2455516" vertical-offset="0" max-vertical-offset="1124">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="27" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.48244825" vertical-offset="913" max-vertical-offset="2576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/lesson_detail.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="5" selection-start="854" selection-end="854" vertical-scroll-proportion="0.5175518" vertical-offset="0" max-vertical-offset="1111">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

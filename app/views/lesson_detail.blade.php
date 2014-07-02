@@ -8,15 +8,16 @@
     @if (isset($lesson))
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-            <div class="thumbnail">
+        <div style="background-color: white;
+                    padding: 10px 10px 10px 15px;">
 <!--                <img src="http://placehold.it/300x300/" alt="...">-->
-                <div class="caption">
+            <div class="caption">
                     <h3>{{ $lesson->title }}</h3>
+                <blockquote>
                     <p>{{ $lesson->body }}</p>
-                    <h3 class="text-right">User id: <small>{{ $lesson->user_id }}</small></h3>
-<!--                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>-->
-                </div>
+                    <p class="text-right">User id: <small>{{ $lesson->user_id }}</small></p>
+    <!--                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>-->
+                </blockquote>
             </div>
         </div>
     </div>
