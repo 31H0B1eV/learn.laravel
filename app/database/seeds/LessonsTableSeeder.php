@@ -13,7 +13,10 @@ class LessonsTableSeeder extends Seeder {
 
         foreach (range(1, 10000) as $index)
         {
+            $userId = User::orderBy(DB::raw('RAND()'))->first()->id;
+
             Lesson::create([
+                'user_id' => $userId,
                 'title' => $faker->sentence(5),
                 'body'  => $faker->paragraph(4)
             ]);
