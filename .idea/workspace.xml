@@ -24,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lesson_detail.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/lesson_detail.blade.php">
+      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="94" selection-start="571" selection-end="571" vertical-scroll-proportion="0.3312331" vertical-offset="0" max-vertical-offset="1111">
+            <state line="22" column="42" selection-start="359" selection-end="359" vertical-scroll-proportion="0.4475089" vertical-offset="3" max-vertical-offset="1127">
               <folding />
             </state>
           </provider>
@@ -58,7 +58,6 @@
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/views/slider-3.php" />
         <option value="$PROJECT_DIR$/app/views/index.blade.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/models/LessonUser.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/LessonUserTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/base.blade.php" />
         <option value="$PROJECT_DIR$/app/views/create_lesson.blade.php" />
@@ -70,18 +69,23 @@
         <option value="$PROJECT_DIR$/app/controllers/LessonsController.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_06_26_095143_create_lessons_table.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/LessonsTableSeeder.php" />
-        <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/models/Lesson.php" />
         <option value="$PROJECT_DIR$/app/views/lessons.blade.php" />
         <option value="$PROJECT_DIR$/app/views/lesson_detail.blade.php" />
+        <option value="$PROJECT_DIR$/app/models/LessonUser.php" />
+        <option value="$PROJECT_DIR$/app/models/Favorites.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_07_02_130902_create_lessons_table.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_07_02_130940_create_users_table.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_07_02_131017_create_favorites_table.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="778" />
+    <option name="x" value="741" />
     <option name="y" value="3" />
-    <option name="width" value="1142" />
+    <option name="width" value="1179" />
     <option name="height" value="1172" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -340,7 +344,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="778" y="3" width="1142" height="1172" extended-state="0" />
+    <frame x="741" y="3" width="1179" height="1172" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -349,7 +353,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924694" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294412" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32486865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34435964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -383,11 +387,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -538,11 +537,6 @@
         <state line="66" column="8" selection-start="2086" selection-end="2101" vertical-scroll-proportion="2.1841726" vertical-offset="0" max-vertical-offset="1771" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/LessonUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="51" selection-start="133" selection-end="133" vertical-scroll-proportion="0.23165467" vertical-offset="0" max-vertical-offset="695" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="6" selection-start="0" selection-end="461" vertical-scroll-proportion="0.5058651" vertical-offset="0" max-vertical-offset="682" />
@@ -561,11 +555,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/partials/_form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="19" selection-start="604" selection-end="604" vertical-scroll-proportion="0.72805756" vertical-offset="0" max-vertical-offset="695" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_06_26_152849_create_lesson_user_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="966" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/User.php">
@@ -589,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/LessonsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="353" selection-end="353" vertical-scroll-proportion="0.39333934" vertical-offset="0" max-vertical-offset="1111">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/e1200d95/a4c14bd1-9b15-4665-9a0b-14164c13e75e/learn..users">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
@@ -606,20 +588,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_06_26_150432_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.51156586" vertical-offset="0" max-vertical-offset="1124">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_06_26_095143_create_lessons_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="429" selection-end="429" vertical-scroll-proportion="0.47064057" vertical-offset="0" max-vertical-offset="1124">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/LessonsTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="1" selection-start="505" selection-end="505" vertical-scroll-proportion="0.4911032" vertical-offset="0" max-vertical-offset="1124">
@@ -627,23 +595,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/LessonUserTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.40925267" vertical-offset="0" max-vertical-offset="1124">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/seeds/UsersTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="30" selection-start="550" selection-end="550" vertical-scroll-proportion="0.47064057" vertical-offset="0" max-vertical-offset="1124">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="252" selection-end="252" vertical-scroll-proportion="0.34786478" vertical-offset="0" max-vertical-offset="1150">
           <folding />
         </state>
       </provider>
@@ -664,7 +618,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/lesson_detail.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="94" selection-start="571" selection-end="571" vertical-scroll-proportion="0.3312331" vertical-offset="0" max-vertical-offset="1111">
+        <state line="23" column="10" selection-start="813" selection-end="813" vertical-scroll-proportion="0.47614762" vertical-offset="0" max-vertical-offset="1111">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/LessonsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="1" selection-start="838" selection-end="838" vertical-scroll-proportion="0.74527454" vertical-offset="0" max-vertical-offset="1111">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Favorites.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="95" selection-end="95" vertical-scroll-proportion="0.1227758" vertical-offset="0" max-vertical-offset="1124">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/local/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1219">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.5524911" vertical-offset="621" max-vertical-offset="2990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_02_130902_create_lessons_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="666" selection-end="666" vertical-scroll-proportion="0.7161922" vertical-offset="0" max-vertical-offset="1124">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_02_130940_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="767" selection-end="767" vertical-scroll-proportion="0.75711745" vertical-offset="0" max-vertical-offset="1124">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_07_02_131017_create_favorites_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="9" selection-start="317" selection-end="317" vertical-scroll-proportion="0.3069395" vertical-offset="0" max-vertical-offset="1124">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="42" selection-start="359" selection-end="359" vertical-scroll-proportion="0.4475089" vertical-offset="3" max-vertical-offset="1127">
           <folding />
         </state>
       </provider>

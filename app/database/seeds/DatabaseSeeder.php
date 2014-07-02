@@ -5,7 +5,7 @@ class DatabaseSeeder extends Seeder {
     private $tables = [
         'users',
         'lessons',
-        'lesson_user'
+        'favorites'
     ];
 
 	/**
@@ -21,7 +21,6 @@ class DatabaseSeeder extends Seeder {
 
         $this->call('UsersTableSeeder');
         $this->call('LessonsTableSeeder');
-		$this->call('LessonUserTableSeeder');
 	}
 
     private function cleanDatabase()
